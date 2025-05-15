@@ -1,0 +1,17 @@
+{
+    "ruff.nativeServer": "on",
+    "ruff.configurationPreference": "filesystemFirst",
+    "ruff.configuration": "${workspaceFolder}/ruff.toml",
+    "ruff.exclude": [],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "editor.formatOnType": false,
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        }
+    }
+}
